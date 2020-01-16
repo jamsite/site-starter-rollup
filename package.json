@@ -1,0 +1,21 @@
+{
+  "name": "@jamsite/site-starter-rollup",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Jamsite rollup starter site.",
+  "scripts": {
+    "start": "npx jamsite start",
+    "inspect": "npx --node-arg=--inspect jamsite start",
+    "dev": "npx jamsite start-dev"
+  },
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@jamsite/jamsite": "0.0.x"
+  },
+  "devDependencies": {
+    "@jamsite/jamsite-dev": "0.0.x",
+    "rollup": "^1.29.0",
+    "rollup-plugin-output-manifest": "^1.0.2"
+  }
+}
